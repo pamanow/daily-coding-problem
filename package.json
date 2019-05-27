@@ -1,0 +1,15 @@
+{
+  "name": "Daily-Coding-Problem",
+  "version": "1.0.0",
+  "description": "Web developer personal diary",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --presets es2015 -d dist/ src"
+  },
+  "author": "pamanow",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
