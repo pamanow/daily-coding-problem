@@ -18,7 +18,4 @@ const sortSquares = (input) => {
     return result;
 };
 
-const r = sortSquares(input);
-console.log(r);
-
-// TODO: add test here 
+export default sortSquares; 
