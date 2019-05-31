@@ -16,10 +16,10 @@ describe('getItinerary', () => {
     expect(getItinerary(input, 'COM')).to.be.a('null');
   });
 
-  it.skip('should return lexicographically smaller path', () => {
+  it('should return lexicographically smaller path', () => {
     const input = [['A', 'B'], ['A', 'C'], ['B', 'C'], ['C', 'A']];
     const expected = ['A', 'B', 'C', 'A', 'C'];
 
-    expect(getItinerary(input, startingPoint)).to.deep.equal(expected);
+    expect(getItinerary(input, 'A')).to.deep.equal(expected);
   });
 });
