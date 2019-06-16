@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import findPartition from '../findPartition';
+import findPartition from './findPartition';
 
 describe('findpartition function', () => {
   it('should return true, if given set can be partitioned into two subsets', () => {

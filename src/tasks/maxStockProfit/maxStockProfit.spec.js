@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import maxStockProfit from '../maxStockProfit';
+import maxStockProfit from './maxStockProfit';
 
 describe("maxStockProfit function", () => {
   describe('should return 0 when there is no chance to gain a profit:', () => {

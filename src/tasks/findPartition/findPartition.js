@@ -8,7 +8,7 @@ const isSubsetSum = (input, n, sum) => {
     return false;
   }
 
-  //include current item in the subset (arr[n]) and recur
+  // include current item in the subset (arr[n]) and recur
 	// for remaining items (n - 1) with remaining sum (sum - arr[n])
   const include = isSubsetSum(input, n-1, sum - input[n]);
 
@@ -22,7 +22,7 @@ const findPartition = (input) => {
   const sum = input.reduce((prev, next) => prev + next, 0);
   
   if (sum % 2 !== 0) {
-    // Sum is odd, there cannot be two subsets with equal sum
+    // Sum is odd, there can not be two subsets with equal sum
     return false;
   }
 

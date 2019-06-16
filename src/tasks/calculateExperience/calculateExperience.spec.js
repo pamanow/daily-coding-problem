@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import calculateExperience from '../calculateExperience';
+import calculateExperience from './calculateExperience';
 
 describe('calculateExperience function', () => {
   it('should calculate experience based on input data', () => {
