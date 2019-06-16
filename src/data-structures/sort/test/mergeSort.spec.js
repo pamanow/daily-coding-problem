@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import mergeSort from '../../data-structures/sort/mergeSort';
+import mergeSort from '../mergeSort';
 
 describe('mergeSort', () => {
   it('should return original array when length is equal 1', () => {

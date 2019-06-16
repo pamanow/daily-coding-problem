@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import listByHops from '../listByHops';
+import listByHops from './listByHops';
 
 describe('listByHops function', () => {
   it('should return true, if you can reach to the last index starting at index 0.', () => {

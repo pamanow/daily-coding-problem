@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import getItinerary from '../getItinerary';
+import getItinerary from './getItinerary';
 
 describe('getItinerary', () => {
   it('shoult return proper path', () => {

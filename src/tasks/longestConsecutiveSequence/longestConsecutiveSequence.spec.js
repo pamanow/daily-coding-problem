@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import longestConsecutiveSequence from '../longestConsecutiveSequence';
+import longestConsecutiveSequence from './longestConsecutiveSequence';
 
 describe('longestConsecutiveSequence function', () => {
   it('should return 1 when there is no constant sequence', () => {

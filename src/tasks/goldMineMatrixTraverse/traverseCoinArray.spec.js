@@ -1,5 +1,5 @@
 import { expect } from  'chai';
-import traverseCoinArray from '../traverseCoinArray';
+import traverseCoinArray from './traverseCoinArray';
 
 
 describe('traverseCoinArray', () => {

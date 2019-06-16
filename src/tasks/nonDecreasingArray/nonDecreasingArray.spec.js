@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import couldBecomeNonDecreasing from '../nonDecreasingArray';
+import couldBecomeNonDecreasing from './nonDecreasingArray';
 
 describe("CouldBecomeNonDecreasing function", () => {
   it('should return true when array could be non-decreasing by one modification', () => {

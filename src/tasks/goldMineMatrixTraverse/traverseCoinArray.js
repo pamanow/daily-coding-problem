@@ -1,11 +1,3 @@
-/* 
-Given a gold mine of n*m dimensions. Each field in this mine contains a positive integer 
-which is the amount of gold in tons. Initially the miner is at first column, 
-but can be at any row. He can move only (right-> & right down\) that is from a given cell, 
-the miner can move to the cell right or diagonally down towards the right. 
-Find out maximum amount of gold he can collect.
-*/
-
 const traverseCoinArray = (arr) => {
   // Create a table for storing intermediate results  and initialize all cells to 0. 
   // The first row of  goldTable gives the maximum gold that the miner can collect when starts that row. 
@@ -36,7 +28,3 @@ const traverseCoinArray = (arr) => {
 };
 
 export default traverseCoinArray;
-
-[[5, 2, 1], 
-[1, 5, 1], 
-[1, 2, 9]]; 

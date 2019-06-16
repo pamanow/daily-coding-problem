@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import sortSquares from '../sortSquares';
+import sortSquares from './sortSquares';
 
 describe("SquareSort function", () => {
   it('should square and sort array', () => {
