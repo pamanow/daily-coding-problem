@@ -13,4 +13,4 @@
 
 
 ## Travis-CI build
-https://travis-ci.com/pamanow/daily-coding-problem.svg?branch=master
+![build](https://travis-ci.com/pamanow/daily-coding-problem.svg?branch=master)
