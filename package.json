@@ -4,7 +4,7 @@
   "description": "Web developer personal code playground",
   "scripts": {
     "test": "./node_modules/.bin/mocha src --recursive --require babel-core/register",
-    "build": "babel --presets es2015 -d dist/ src"
+    "build": "babel --presets es2015 -d dist/ src --ignore  '**/*.spec.js'"
   },
   "author": "pamanow",
   "license": "MIT",
